@@ -1,0 +1,10 @@
+{% extends 'layout/main.html.twig' %}
+
+{% block body %}
+    <h1 class="h1">MVC Blog</h1>
+        {% if session.email is defined %}
+        <p>Dear, {{ session.email }}</p>
+        {% endif %}
+    {{ msg }}
+ {% endblock %}   
+
