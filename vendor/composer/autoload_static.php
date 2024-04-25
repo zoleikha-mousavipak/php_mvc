@@ -41,7 +41,6 @@ class ComposerStaticInit7deadd781782fd63f4b8f0d5bba813d7
             'Symfony\\Component\\Translation\\' => 30,
             'Symfony\\Component\\String\\' => 25,
             'Symfony\\Component\\Console\\' => 26,
-            'Symfony\\Bridge\\Twig\\' => 20,
         ),
         'P' => 
         array (
@@ -123,10 +122,6 @@ class ComposerStaticInit7deadd781782fd63f4b8f0d5bba813d7
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
-        ),
-        'Symfony\\Bridge\\Twig\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/twig-bridge',
         ),
         'Psr\\SimpleCache\\' => 
         array (

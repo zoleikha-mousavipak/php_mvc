@@ -6,7 +6,7 @@ use App\services\TwigAdapter;
 
 class Controller
 {
-    public ?TwigAdapter $twigAdapter = null;
+    public TwigAdapter $twigAdapter;
 
     public function getTwig()
     {
@@ -20,4 +20,5 @@ class Controller
     }
 
 }
+
 

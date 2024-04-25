@@ -7,3 +7,4 @@ class Blog extends Eloquent
     public $name;
     protected $fillable = ['title', 'comment'];
 }
+

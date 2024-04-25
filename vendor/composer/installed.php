@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '__root__',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '443c3f17a79a674e039b3c85c8b086002514dc25',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '443c3f17a79a674e039b3c85c8b086002514dc25',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -240,15 +240,6 @@
             'provided' => array(
                 0 => '2.3|3.0',
             ),
-        ),
-        'symfony/twig-bridge' => array(
-            'pretty_version' => 'v6.4.6',
-            'version' => '6.4.6.0',
-            'reference' => 'f150e06e2fbe8004dbcaa66a46bf20b2b3a99308',
-            'type' => 'symfony-bridge',
-            'install_path' => __DIR__ . '/../symfony/twig-bridge',
-            'aliases' => array(),
-            'dev_requirement' => false,
         ),
         'twig/twig' => array(
             'pretty_version' => 'v3.8.0',
